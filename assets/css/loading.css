@@ -1,0 +1,86 @@
+@font-face {
+  font-family: Roboto;
+  src: url("../fonts/Roboto-Bold.ttf");
+  width: 700;
+}
+@font-face {
+  font-family: Roboto;
+  src: url("../fonts/Roboto-Medium.ttf");
+  width: 500;
+}
+@font-face {
+  font-family: Roboto;
+  src: url("../fonts/Roboto-Regular.ttf");
+  width: 400;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-family: Roboto;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #844DFA;
+}
+
+.container {
+  max-width: 596px;
+  margin: auto;
+}
+
+.center {
+  margin-top: 250px;
+}
+.center__items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.center__text {
+  opacity: 0;
+  animation: fadeIn ease-in 1;
+  animation-fill-mode: forwards;
+  animation-duration: 0.5s;
+  text-align: center;
+  margin-top: 45px;
+  margin-bottom: 51px;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.center__texts {
+  color: #fff;
+  font-size: 48px;
+}
+.center__main {
+  opacity: 0;
+  animation: fadeIn ease-in 1;
+  animation-fill-mode: forwards;
+  animation-duration: 2s;
+}
+.center__main-t {
+  color: #fff;
+  transition: 0.3s;
+}
+.center__main-t:hover {
+  color: #9EF4C6;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}/*# sourceMappingURL=loading.css.map */
